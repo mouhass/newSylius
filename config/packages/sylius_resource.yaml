@@ -1,0 +1,7 @@
+sylius_resource:
+    resources:
+        app.book:
+            classes:
+                model: App\Entity\Book
+                repository: App\Repository\BookRepository
+                form: App\Form\Type\BookType
